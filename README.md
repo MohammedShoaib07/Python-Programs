@@ -1,8 +1,8 @@
-# Python Programs 🐍
+# Python Programs 
 
 This repository contains all my Python learning programs, practice questions, and exam problems that I solved while learning Python from scratch.
 
-## 📌 What you'll find in this repo:
+## What you'll find in this repo:
 - Basic Python programs
 - Practice problems and solutions
 - Logic building exercises
@@ -10,21 +10,38 @@ This repository contains all my Python learning programs, practice questions, an
 - Concept-based programs
 - Beginner to intermediate level code
 
-## 🎯 Purpose
+## Purpose
 The main goal of this repository is to:
 - Track my Python learning journey
 - Improve problem-solving skills
 - Build strong programming fundamentals
 - Help other beginners learn Python easily
 
-## 👨‍💻 Who is this for?
+## Who is this for?
 This repo is helpful for:
 - Beginners learning Python
 - Students preparing for exams
 - Anyone who wants practice programs
 - Anyone who wants to build strong Python basics
 
-## 🚀 Status
+## Status
 This repository will be updated regularly as I continue learning and practicing Python.
 
 Feel free to explore, learn, and practice!
+
+n = int(input("Enter number: "))
+
+if n <= 1:
+    print("Not Prime")
+else:
+    is_prime = True
+    
+    for i in range(2, n):
+        if n % i == 0:
+            is_prime = False
+            break
+    
+    if is_prime:
+        print("Prime Number")
+    else:
+        print("Not Prime")
