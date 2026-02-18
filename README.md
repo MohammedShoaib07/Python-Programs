@@ -29,19 +29,3 @@ This repository will be updated regularly as I continue learning and practicing 
 
 Feel free to explore, learn, and practice!
 
-n = int(input("Enter number: "))
-
-if n <= 1:
-    print("Not Prime")
-else:
-    is_prime = True
-    
-    for i in range(2, n):
-        if n % i == 0:
-            is_prime = False
-            break
-    
-    if is_prime:
-        print("Prime Number")
-    else:
-        print("Not Prime")
