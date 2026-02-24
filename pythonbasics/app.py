@@ -1,14 +1,6 @@
-import random as r 
+n=int(input("ENTER NO OF STUDENTS :"))
 
-ans=r.randint(1,9)
-while True:
-    ip=int(input("guess number from 1-9 (choose '0' to exit): "))
-    if ip==0:
-        print("EXITED !")
-        break
-    elif ip==ans:
-        print("you won !!")
-        print(f"random number was {ans}")
-    else:
-        print("saala haar gaya !")
-        print(f"random number was {ans}")
+for i in n:
+    name=input("ENTER NAME :")
+    rollno=int(input("ENTER ROLL NO :"))
+print(name,rollno)
