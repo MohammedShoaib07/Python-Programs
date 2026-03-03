@@ -1,6 +1,5 @@
 BEDS = 20
 
-
 allocated_beds = {}  
 # { bed_no : {"name": patient_name, "disease": disease} }
 
@@ -63,13 +62,15 @@ def display():
         print("Disease:", details["disease"])
 
 while True:
-
+    print("\n-----------------------------------------------------------------")
+    print("\n\t\t-HOSPITAL BED ALLOCATION SYSTEM-\t")
+    print("\n-----------------------------------------------------------------")
     available_beds()
-
+    
     print("1.ALLOCATE BED")
     print("2.DEALLOCATE BED")
     print("3.VIEW ALLOCATED BEDS")
-    print("4.EXIT")
+    print("4.EXIT\n")
 
     choice = int(input("ENTER THE CHOICE : "))
 
